@@ -9,6 +9,7 @@ gem 'bootstrap-will_paginate', '0.0.6'
 gem 'pg', '0.12.2'
 gem 'haml', '~>3.1.7'
 gem 'haml-rails'
+gem 'hirb'
 
 group :development, :test do
   gem 'rspec-rails', '2.10.0'
