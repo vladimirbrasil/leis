@@ -1,15 +1,13 @@
 # == Schema Information
 #
-# Table name: areas
+# Table name: assuntos
 #
 #  id         :integer          not null, primary key
-#  content    :text
+#  content    :string(255)
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
-require 'spec_helper'
-
-describe Area do
-  pending "add some examples to (or delete) #{__FILE__}"
+class Assunto < ActiveRecord::Base
+  attr_accessible :content
 end
